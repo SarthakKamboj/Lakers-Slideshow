@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="./static/css/slideshow.css">
+</head>
+<body>
+    <div class="container">
+        <div class="mobile-menu">
+            <div class="icon">&#9776;</div>
+            <div class="menu menu-hidden">
+                <ul>
+                    <li id="icon">&#9776;</li>
+                    <li>Players</li>
+                    <li>Record</li>
+                    <li>Championships</li>
+                    <li>Stats</li>
+                </ul>
+            </div>
+        </div>
+        <div class="slideshow">
+            <div class="blur"></div>
+            <img class="img lebron visible" src="./static/images/ad_and_lebron.jpg" alt="">
+            <img class="img kobe right" src="./static/images/lebron_and_kawhi.jpg" alt="">
+            <img class="img magic right" src="./static/images/team.png" alt="">
+            <div class="btns">
+                <div class="btn" for="lebron"></div>
+                <div class="btn" for="kobe"></div>
+                <div class="btn" for="magic"></div>
+            </div>
+            <div class="arrows">
+                <div class="left-arrow">
+                    <img src="./static/images/left-arrow.png" alt="">
+                </div>
+                <div class="right-arrow">
+                    <img src="./static/images/right-arrow.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

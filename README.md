@@ -1,0 +1,3 @@
+I used vanilla JavaScript to create a slideshow of Lakers images while also creating a mobile menu bar that made the rest of the webpage slightly darker upon activation.
+
+I solidified my understanding of the relationship between CSS and Javascript and how both can work in conjunction as a powerful combination. I also became more familiar with Webpack and the directory structure. Overall, this project challenged me to create a high-quality slideshow while also implementing subtle features such as opacity changes and mobile menus. 
